@@ -1,8 +1,8 @@
 <?php
 
-namespace Obiefy\Tests;
+namespace MasudRana\Tests;
 
-use Obiefy\API\Tests\TestCase;
+use MasudRana\API\Tests\TestCase;
 
 class NotFoundResponseTest extends TestCase
 {

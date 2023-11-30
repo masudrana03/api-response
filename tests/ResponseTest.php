@@ -1,10 +1,10 @@
 <?php
 
-namespace Obiefy\Tests;
+namespace MasudRana\Tests;
 
 use Illuminate\Http\JsonResponse;
-use Obiefy\API\Facades\API;
-use Obiefy\API\Tests\TestCase;
+use MasudRana\API\Facades\API;
+use MasudRana\API\Tests\TestCase;
 use stdClass;
 
 class ResponseTest extends TestCase

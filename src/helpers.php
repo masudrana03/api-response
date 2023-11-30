@@ -1,8 +1,8 @@
 <?php
 
 use Illuminate\Http\JsonResponse;
-use Obiefy\API\APIResponse;
-use Obiefy\Api\Contracts\ApiInterface;
+use MasudRana\API\APIResponse;
+use MasudRana\Api\Contracts\ApiInterface;
 
 if (!function_exists('api')) {
 

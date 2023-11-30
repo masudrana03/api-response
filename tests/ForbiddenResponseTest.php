@@ -1,6 +1,6 @@
 <?php
 
-namespace Obiefy\API\Tests;
+namespace MasudRana\API\Tests;
 
 class ForbiddenResponseTest extends TestCase
 {

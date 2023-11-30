@@ -1,8 +1,8 @@
 <?php
 
-namespace Obiefy\API\Tests;
+namespace MasudRana\API\Tests;
 
-use Obiefy\API\ApiResponseServiceProvider;
+use MasudRana\API\ApiResponseServiceProvider;
 use Orchestra\Testbench\TestCase as OrchestraTestCase;
 
 class TestCase extends OrchestraTestCase

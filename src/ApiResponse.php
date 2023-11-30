@@ -1,10 +1,10 @@
 <?php
 
-namespace Obiefy\API;
+namespace MasudRana\API;
 
 use Illuminate\Http\JsonResponse;
 use Illuminate\Support\Traits\Macroable;
-use Obiefy\API\Contracts\ApiInterface;
+use MasudRana\API\Contracts\ApiInterface;
 
 class ApiResponse implements ApiInterface
 {

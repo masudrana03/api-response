@@ -1,6 +1,6 @@
 <?php
 
-namespace Obiefy\API\Contracts;
+namespace MasudRana\API\Contracts;
 
 use Illuminate\Http\JsonResponse;
 

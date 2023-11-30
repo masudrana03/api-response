@@ -1,9 +1,9 @@
 <?php
 
-namespace Obiefy\API;
+namespace MasudRana\API;
 
 use Illuminate\Support\ServiceProvider;
-use Obiefy\Api\Contracts\ApiInterface;
+use MasudRana\Api\Contracts\ApiInterface;
 
 class ApiResponseServiceProvider extends ServiceProvider
 {

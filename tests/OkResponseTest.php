@@ -1,9 +1,9 @@
 <?php
 
-namespace Obiefy\Tests;
+namespace MasudRana\Tests;
 
-use Obiefy\API\Facades\API;
-use Obiefy\API\Tests\TestCase;
+use MasudRana\API\Facades\API;
+use MasudRana\API\Tests\TestCase;
 
 class OkResponseTest extends TestCase
 {

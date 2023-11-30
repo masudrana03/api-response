@@ -1,8 +1,8 @@
 # Laravel API Response
 
-![Build Status](https://travis-ci.org/obiefy/api-response.svg?branch=master)
+![Build Status](https://travis-ci.org/masudrana/api-response.svg?branch=master)
 [![StyleCI](https://github.styleci.io/repos/206981157/shield?branch=master)](https://github.styleci.io/repos/206981157)
-![Packagist](https://img.shields.io/packagist/l/obiefy/api-response) ![Packagist Version](https://img.shields.io/packagist/v/obiefy/api-response)
+![Packagist](https://img.shields.io/packagist/l/masudrana/api-response) ![Packagist Version](https://img.shields.io/packagist/v/masudrana/api-response)
 
 Simple Laravel API response wrapper.
 
@@ -13,21 +13,21 @@ Simple Laravel API response wrapper.
 ## Installation
 1. Install the package through composer:
 
-    `$ composer require obiefy/api-response`
+    `$ composer require masudrana/api-response`
 
 2. Register the package service provider to the providers array in `app.php` file:
 
-    `Obiefy\API\ApiResponseServiceProvider::class`
+    `MasudRana\API\ApiResponseServiceProvider::class`
 
 3. Register the package facade alias to the aliases array in `app.php` file:
 
-    `'API' => Obiefy\API\Facades\API::class,`
+    `'API' => MasudRana\API\Facades\API::class,`
 
 5. And finally you can publish the config file:
 
     `php artisan vendor:publish --tag=api-response`
 
-Note: You could also include "`use Obiefy\API\Facades\API;`" at the top of the class, but we recommend not to.
+Note: You could also include "`use MasudRana\API\Facades\API;`" at the top of the class, but we recommend not to.
 
 ## Basic usage
 There are to ways of utilizing the package: using the `facade`, or using the `helper` function.
@@ -46,7 +46,7 @@ public function index()
     return API::response(200, 'Latest 5 Users', $users);
 }
 ```
-Note: If you decide not to register the service provider and the facade, alias then you need to include `use Obiefy\API\Facades\API;` at the top of the class, but we recommend not to.
+Note: If you decide not to register the service provider and the facade, alias then you need to include `use MasudRana\API\Facades\API;` at the top of the class, but we recommend not to.
 
 #### Helper function:
 ```php

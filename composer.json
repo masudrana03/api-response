@@ -1,5 +1,5 @@
 {
-    "name": "obiefy/api-response",
+    "name": "masudrana/api-response",
     "type": "library",
     "description": "Simple Laravel package to return Json responses.",
     "keywords": [
@@ -11,19 +11,19 @@
         "restful",
         "RESTful API"
     ],
-    "homepage": "https://github.com/obiefy/api-response",
+    "homepage": "https://github.com/masudrana03/api-response",
     "license": "MIT",
     "minimum-stability": "stable",
     "authors": [
         {
-            "name": "Obiefy",
-            "email": "obayhamed@gmail.com",
-            "homepage": "http://obay-dev.com",
+            "name": "MasudRana",
+            "email": "920mash@gmail.com",
+            "homepage": "http://masud.pro",
             "role": "Creator & Maintainer"
         }
     ],
     "require": {
-        "php" : "^7.3|^8.0",
+        "php" : "^7.3|^8.0|^8.2",
         "illuminate/support": "^10.0|^9.0|^8.0|^7.0|^6.0|^5.5"
     },
     "require-dev": {
@@ -32,12 +32,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Obiefy\\API\\": "src/"
+            "MasudRana\\API\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Obiefy\\API\\Tests\\": "tests/"
+            "MasudRana\\API\\Tests\\": "tests/"
         },
         "files": [
             "src/helpers.php"
@@ -49,10 +49,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                    "Obiefy\\API\\ApiResponseServiceProvider"
+                    "MasudRana\\API\\ApiResponseServiceProvider"
             ],
             "aliases": {
-                "API": "Obiefy\\API\\Facades\\API"
+                "API": "MasudRana\\API\\Facades\\API"
             }
         }
     }

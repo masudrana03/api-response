@@ -1,10 +1,10 @@
 <?php
 
-namespace Obiefy\API\Facades;
+namespace MasudRana\API\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use Obiefy\API\ApiResponse;
-use Obiefy\Api\Contracts\ApiInterface;
+use MasudRana\API\ApiResponse;
+use MasudRana\Api\Contracts\ApiInterface;
 
 /**
  * @method static ApiResponse response($status, $message, $data, ...$extraData)
